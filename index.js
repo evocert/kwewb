@@ -19,7 +19,7 @@ require([
 			var container=$("<div/>").css({});
 			$("body").append(container);
 			var wb=new WorkBench({
-				"root":"/",
+				"root":<@print(JSON.stringify(osutils.GOOS()=="linux"?"/":"C:/"));@>,
 				"container":container
 			});
 			console.log(wb);
