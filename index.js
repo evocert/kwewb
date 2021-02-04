@@ -1,3 +1,4 @@
+console.log('here0');
 require([
 	"lib/config.js?cachebust="+new Date().getTime()
 ],function(){
@@ -10,6 +11,7 @@ require([
 		jq,
 		WorkBench
 	){
+		console.log('here1');
 		console.log([module.id,'start'].join(':'));
 		console.log(WorkBench);
 		{//basic usage
