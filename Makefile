@@ -7,7 +7,7 @@ all:dist_
 dist_:
 	-rm -rf $(TGTDIR)
 	mkdir $(TGTDIR)
-	$(ZIP) -r $(TGT) $(SRC)
+	cd ./lib;$(ZIP) -r ./lib.zip ./*;mv ./lib.zip ../dist;cd ../;pwd
 	cp ./index.html $(TGTDIR)
 	cp ./index.js $(TGTDIR)
 	cp ./favicon.ico $(TGTDIR)
