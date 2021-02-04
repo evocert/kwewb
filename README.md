@@ -18,4 +18,10 @@ Make clean
 ```
 
 # Remoting
+In `conf.js`, add the following
+```
 ...
+resourcing.RegisterEndpoint("/wb","https://raw.githubusercontent.com/evocert/kwewb/main/");
+...
+``` 
+Hit `http://localhost:1234/wb/lib/index.html` or `http://localhost:1234/wb/index.html` 
