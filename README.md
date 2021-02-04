@@ -10,7 +10,7 @@ Customize `index.html` and `index.js` or use defaults.
 # Building ./dist
 You can build zip package using the following
 ```
-Make dist
+Make
 ```
 Clean using
 ```
