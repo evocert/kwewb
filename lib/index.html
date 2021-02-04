@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>KWE Workbench</title>
+	  	<script src="/require.js"></script>
+	</head>
+	<body>
+		<!-- demo -->
+		<script>
+			require([
+				"./config.js?cachebust="+new Date().getTime()
+				],
+				function(){
+					require([
+						"module",
+						"jquery",
+						"kwe.workbench",
+					],function(
+						module,
+						jq,
+						WorkBench
+					){
+						alert('demo');
+						console.log([module.id,'start'].join(':'));
+						console.log(WorkBench);
+						{//basic usage
+							$=jq;
+							var container=$("<div/>").css({});
+							$("body").append(container);
+							var wb=new WorkBench({
+								"root":"/",
+								"svcpath":"./vendor/kwe/filemanager/index.svc.dx.js",
+								"container":container
+							});
+							console.log(wb);
+						}
+					});
+				}
+			);
+		</script>
+	</body>
+</html>
