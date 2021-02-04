@@ -1,7 +1,6 @@
 require([
 	"lib/config.js?cachebust="+new Date().getTime()
 ],function(){
-	//require(["app/main"],function(){});
 	require([
 		"module",
 		"jquery",
@@ -11,7 +10,6 @@ require([
 		jq,
 		WorkBench
 	){
-		alert('custom');
 		console.log([module.id,'start'].join(':'));
 		console.log(WorkBench);
 		{//basic usage
