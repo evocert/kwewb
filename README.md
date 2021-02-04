@@ -8,7 +8,7 @@ Deploy to public web directory. Hit `$(WBPATH)/`, `$(WBPATH)/index.html`, `$(WBP
 Customize `index.html` and `index.js` or use defaults.
 
 # Building ./dist
-You can build zip package using the following
+You can build the zip package using the following
 ```
 Make
 ```
