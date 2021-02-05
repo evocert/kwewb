@@ -1,4 +1,3 @@
-console.log('here0');
 require([
 	"lib/config.js?cachebust="+new Date().getTime()
 ],function(){
