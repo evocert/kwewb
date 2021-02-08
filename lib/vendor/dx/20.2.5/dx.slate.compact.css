@@ -230,8 +230,8 @@
 }
 @font-face {
   font-family: DXIcons;
-  /*src: local("DevExtreme Generic Icons"),local("devextreme_generic_icons"),url(icons/dxicons.woff2) format("woff2"),url(icons/dxicons.woff) format("woff"),url(icons/dxicons.ttf) format("truetype");*/
-  src: local("DevExtreme Generic Icons"),local("devextreme_generic_icons"),url(lib/vendor/dx/20.2.5/icons/dxicons.woff2) format("woff2"),url(lib/vendor/dx/20.2.5/icons/dxicons.woff) format("woff"),url(lib/vendor/dx/20.2.5/icons/dxicons.ttf) format("truetype");
+  src: local("DevExtreme Generic Icons"),local("devextreme_generic_icons"),url(icons/dxicons.woff2) format("woff2"),url(icons/dxicons.woff) format("woff"),url(icons/dxicons.ttf) format("truetype");
+  /*src: local("DevExtreme Generic Icons"),local("devextreme_generic_icons"),url(lib/vendor/dx/20.2.5/icons/dxicons.woff2) format("woff2"),url(lib/vendor/dx/20.2.5/icons/dxicons.woff) format("woff"),url(lib/vendor/dx/20.2.5/icons/dxicons.ttf) format("truetype");*/
   font-weight: 400;
   font-style: normal;
 }
